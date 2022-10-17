@@ -1,11 +1,12 @@
 #include "main.h"
-_pacer - receives the main string and all the neccessary parameters
-to print a formatted string
-@format: string containing desired characters
-f_list: list opf possible functions
-@arg_list: list of arguments
-Return: total characters printed
-/
+/**
+ * _pacer - receives the main string and all the neccessary parameters
+ * to print a formatted string
+ * @format: string containing desired characters
+ * @f_list: list opf possible functions
+ * @arg_list: list of arguments
+ * Return: total characters printed
+ */
 
 int _pacer(const char *format, conver_t f_list[], va_list arg_list)
 {

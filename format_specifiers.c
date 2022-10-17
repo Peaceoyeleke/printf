@@ -53,7 +53,7 @@ int _print_integer(va_list list)
 {
 	int n;
 
-	n = print_number(list);
+	n = _print_number(list);
 	return (n);
 }
 
