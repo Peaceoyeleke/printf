@@ -10,11 +10,10 @@
 int _print_string(char *str)
 {
 	int count;
-	char str[] = "this is me";
 
 	for (count = 0; count < STR; count++)
 	{
-		if (str[count] = '\0')
+		if (str[count] == '\0')
 		{
 			_putchar('\n');
 		}
