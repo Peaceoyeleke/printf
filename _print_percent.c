@@ -6,10 +6,8 @@
  * Return: 0
  */
 
-int _print_percent(char a)
+int _print_percent(char a __attribute__ ((unused)))
 {
-	int a = 5;
-
 	_putchar(37);
 	return (0);
 }
